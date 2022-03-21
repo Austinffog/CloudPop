@@ -1,0 +1,89 @@
+Game Name
+Cloud Pop
+
+Purpose
+This game is created to learn the concepts of multiplayer games, networking and using Photon.
+
+Objective
+The objective of the game is to burst more clouds than the enemys and survive against the others.
+
+Target Audience
+* Those interested in indie games.
+* Player verse player shooting games.
+
+Gameplay 
+* Clouds will spawn and move around an area.
+* The player will have to destroy the different clouds for different effects.
+* First person to eliminate the other enemys with 100 health wins.
+
+Gameplay Mechanics
+* Main Menu, game over menu, pause menu and victory menu.
+-Main menu buttons: play.
+-Game over menu buttons: replay, main menu and exit.
+-Pause menu buttons: resume, main menu and exit.
+-Victory menu buttons: replay, main menu and exit.
+
+Type of Game
+* 3D, with 3D movement, player mechanics, shooting and game play. 
+
+Game Engine and Language
+* Using unity with C#.
+
+Platforms
+* Created for Windows PC, possibly Linux PC, possibly Mac PC.
+
+Gameplay Features
+* Lobby, to view all games to be joined and filled
+* Firing a weapon and shooting bullets will deal a base damage of 2hp at a rate of 3secs
+* Basic cloud effects will be random: 
+-damage increase to 5hp for 5 bullets
+-increase firing time to 1.5secs for 6secs
+-heal for 5hp
+-gain a shield for 5secs
+* Other clouds: lighting, rain, snow
+-Lightning effect- will zap an enemy for 7hp.
+-Rain effect- will make the enemy take double the damage for 4secs.
+-Snow effect- will reduce an enemies movement by half for 8secs.
+
+Future Gameplay Features 
+* Include more damaging effects from the clouds: hurricane effect, tornado, fog, mist.
+-Hurricane effect- cause everyone (excluding the person who activated it) to sustain 10hp damage over time.
+-Tornado effect- a select enemy in an area sustains 8hp damage over time (damage does not apply to person who activated it if they were in the area).
+-Fog effect- everyone (excluding the person who activated it) loses vision for 5secs.
+-Mist effect- a select individual loses vision for 3secs.
+-From the order listed above, these clouds with the specific effect will be harder to find and not spawn as often.
+* Include healing and support effects: clear skies, partly cloudy, sun.
+-Clear skies effect- will negate all effects on you.
+-Partly cloudy effect- reduces all effects by 50% for 15secs.
+-Sun effect- heals you for 50% of damage taken.
+-From the order listed above, these clouds with the specific effect will be harder to find and not spawn as often.
+* Include a team lobby, with 4 enemies and 4 teammates.
+* More clouds with effects to be determined: hail, thunder.
+* Clouds with different shapes which will include bonuses.
+
+Assets
+* Basic cloud, rain, snow, lightning.
+* Basic map to fight on.
+* Weapon and player body.
+
+Future Assets
+* Hurricane, tornado, fog, mist, clear skies, partly cloudy, sun, hail, thunder.
+* Different maps.
+* Different types of guns, mainly for aesthetic. 
+-Possible idea is that clouds can drop different types of weapons, most likely the clouds that have different shapes.
+* Skins for players.
+
+UI
+* A main menu, game over menu, pause menu and a victory menu.
+* A health bar.
+* Scores.
+* Display effects in use.
+
+Sound
+* Background sound that is ominous.
+* Button clicks.
+
+Future Sound
+* A sound effect for every effect.
+* Sounds for the different guns.
+* Catch phrases that can be said randomly when something occurs such as healing, receiving damage or obtaining an effect.
